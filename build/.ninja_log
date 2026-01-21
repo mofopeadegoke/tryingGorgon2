@@ -1,0 +1,7 @@
+# ninja log v6
+1	12	1768992546757260405	CMakeFiles/copy-runtime-files	633e3218d31ad6c7
+1	12	1768992546757260405	/home/daniel/Documents/tryingGorgon2/build/CMakeFiles/copy-runtime-files	633e3218d31ad6c7
+12	1606	1768992546769669223	CMakeFiles/RenegadeApplication.dir/Source/Application.cpp.o	c481f952cf648335
+12	1832	1768992546769271337	CMakeFiles/RenegadeApplication.dir/Source/Main.cpp.o	dd90ccd32add9f44
+12	2225	1768992546769875523	CMakeFiles/RenegadeApplication.dir/Source/ViewSettings.cpp.o	66c6fd6026758d1d
+2225	3364	1768992548981261459	/home/daniel/Documents/tryingGorgon2/Bin/RenegadeApplication	1db7d21c6884fe34
