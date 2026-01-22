@@ -31,6 +31,7 @@ public:
     // This function creates some necessary UI parts.
     // Most likely you don't need to change it.
     Application(UI::Window &window);
+    
 
     // This function is where the example code runs in.
     // You may modify it to keep it like this.
@@ -42,21 +43,10 @@ public:
 
     // This function redraws the bitmap on the layer.
     void Redraw();
+    
 
 private:
 
-    void AddTask();
     UI::Window &window;
-    
-    // Top panel for input
-    Widgets::Panel inputPanel;
-    Widgets::Textbox taskInput;
-    Widgets::Button addButton;
-    
-    // Task list panel
-    Widgets::Panel taskListPanel;
-    
-    // Organizers
-    UI::Organizers::List inputOrganizer;
-    UI::Organizers::List taskListOrganizer;
+
 };
