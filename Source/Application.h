@@ -8,6 +8,8 @@
 #include <Gorgon/UI/Window.h>
 #include <Gorgon/UI/Organizers/Flow.h>
 #include <Gorgon/Graphics/Bitmap.h>
+#include <Gorgon/Widgets/Composer.h>
+#include <Gorgon/Widgets/Label.h>
 #include <Gorgon/Widgets/Panel.h>
 #include <Gorgon/Widgets/Layerbox.h>
 #include <Gorgon/Widgets/Button.h>
@@ -48,5 +50,6 @@ public:
 private:
 
     UI::Window &window;
+    Widgets::Label appTitle;
 
 };
