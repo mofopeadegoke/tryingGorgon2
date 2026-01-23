@@ -47,7 +47,7 @@ int main() {
             
     uigen.SetColor(Gorgon::Graphics::Color::Active, {{Gorgon::Graphics::Color::Black, Gorgon::Graphics::Color::White, 0.25f}, {Gorgon::Graphics::Color::White, 0.9}});
 
-    uigen.InitFonts("noto sans", "", 6);
+    uigen.InitFonts("Adwaita Mono", "Adwaita Mono", 6.0f);
     uigen.InitDimensions(6);
     
     Gorgon::UI::Initialize(uigen);
