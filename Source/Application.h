@@ -51,5 +51,8 @@ private:
 
     UI::Window &window;
     Widgets::Label appTitle;
+    Widgets::Textbox searchBox;
+    Gorgon::Graphics::Layer logoLayer;
+    Gorgon::Graphics::Bitmap logoBitmap;
 
 };
