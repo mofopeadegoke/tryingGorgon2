@@ -54,5 +54,8 @@ private:
     Widgets::Textbox searchBox;
     Gorgon::Graphics::Layer logoLayer;
     Gorgon::Graphics::Bitmap logoBitmap;
+    Gorgon::Graphics::Bitmap themeBitmap;
+    Gorgon::Graphics::Bitmap notificationBitmap;
+    Gorgon::Graphics::Bitmap userBitmap;
 
 };

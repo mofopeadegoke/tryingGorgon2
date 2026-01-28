@@ -29,6 +29,15 @@ Application::Application(UI::Window& window) :
     logoBitmap.Import("logo.png");
     logoBitmap.Prepare();
     logoBitmap.Draw(logoLayer, 15, 10);
+    themeBitmap.Import("theme.png");
+    themeBitmap.Prepare();
+    themeBitmap.Draw(logoLayer, 2420, 23);
+    notificationBitmap.Import("notifications.png");
+    notificationBitmap.Prepare();
+    notificationBitmap.Draw(logoLayer, 2460, 17);
+    userBitmap.Import("profile.png");
+    userBitmap.Prepare();
+    userBitmap.Draw(logoLayer, 2500, 10);
     auto darkGray = Gorgon::Graphics::Color::DarkGrey;
     auto hLine = CreateHorizontalLine(2200, 1, darkGray);
     hLine.DrawStretched(logoLayer, 0, 70, 2600, 1);  // x=0, y=70, width=2600, height=1
