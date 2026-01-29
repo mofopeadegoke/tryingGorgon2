@@ -6,8 +6,10 @@
 #include <Gorgon/UI/Dimension.h>
 #include <Gorgon/UI/Organizers/Flow.h>
 #include <Gorgon/UI/Window.h>
+#include <Gorgon/Widgets/Registry.h>
 #include <Gorgon/Window.h>
 #include <Gorgon/Input/Mouse.h>
+#include <Gorgon/Widgets/Generator.h>
 
 Gorgon::Graphics::BlankImage CreateHorizontalLine(int widthPx, int thicknessPx, Gorgon::Graphics::RGBAf color) {
     return Gorgon::Graphics::BlankImage({widthPx, thicknessPx}, color);

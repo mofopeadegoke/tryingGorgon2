@@ -52,10 +52,12 @@ private:
     UI::Window &window;
     Widgets::Label appTitle;
     Widgets::Textbox searchBox;
+    Widgets::Button addTaskButton;
     Gorgon::Graphics::Layer logoLayer;
     Gorgon::Graphics::Bitmap logoBitmap;
     Gorgon::Graphics::Bitmap themeBitmap;
     Gorgon::Graphics::Bitmap notificationBitmap;
     Gorgon::Graphics::Bitmap userBitmap;
+    
 
 };
